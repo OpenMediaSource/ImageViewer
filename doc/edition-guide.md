@@ -52,6 +52,9 @@ ImageViewer 提供**基础版（Basic）**和**专业版（Pro）**两个版本�
 
 ### 3.1 获取激活码
 
+购买专业版请访问 [购买链接待补充](#)。<!-- TODO: 替换为实际购买链接 -->
+如对购买、授权范围或发票有疑问，可通过[发布页](https://gitee.com/open-release/image-viewer/releases)提供的联系方式咨询。
+
 1. 打开 `Help > License / Activate Pro`。
 2. 在窗口底部找到 `Machine ID`。
 3. 如果供应方要求设备绑定，点击 `Copy Machine ID` 复制该编号，并连同购买信息一起提供给供应方。

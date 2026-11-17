@@ -128,6 +128,8 @@ ImageViewer 使用同一个程序包，通过离线激活码在运行时切换�
 
 ### 2.2 激活专业版
 
+购买专业版请访问 [购买链接待补充](#)。<!-- TODO: 替换为实际购买链接 -->
+
 1. 打开 `Help > License / Activate Pro`。
 2. 在窗口底部查看 `Machine ID`。如果供应方要求设备绑定，点击 `Copy Machine ID` 复制后提供给对方。
 3. 把收到的激活码粘贴到窗口中部的多行输入框。
@@ -144,6 +146,16 @@ ImageViewer 使用同一个程序包，通过离线激活码在运行时切换�
 - `ImageViewer Edition: Basic` 或 `ImageViewer Edition: Pro`
 - 专业版的 `Licensed to` 和 `License expires`
 - 基础版的许可证错误信息（如有）
+
+### 2.4 赞助支持
+
+如果 ImageViewer 对你有帮助，欢迎通过微信或支付宝赞助支持项目维护。赞助完全自愿，不影响基础版的免费使用。
+
+| 微信 | 支付宝 |
+|:----:|:------:|
+| ![微信赞助码](../assets/donate-wechat.png) | ![支付宝赞助码](../assets/donate-alipay.png) |
+
+> 二维码为占位图片，请替换为实际收款码。<!-- TODO: 替换为实际的微信/支付宝收款二维码 -->
 
 ---
 
