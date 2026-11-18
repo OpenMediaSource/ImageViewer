@@ -17,7 +17,7 @@ ImageViewer 是一款完全离线运行的图像查看与处理工具。本手�
 - [4. 查看图像](#4-查看图像)
 - [5. 对比模式](#5-对比模式)
 - [6. 单图处理](#6-单图处理)
-- [7. 批量处理（专业版）](#7-批量处理专业版)
+- [7. 批量处理](#7-批量处理)
 - [8. 图像加速（专业版）](#8-图像加速专业版)
 - [9. 命令行工具](#9-命令行工具)
 - [10. 设置、快捷键与本地文件](#10-设置快捷键与本地文件)
@@ -91,12 +91,12 @@ ImageViewer 是绿色软件，无需安装：
 
 ### 1.5 批量处理与图像加速
 
-批量格式转换、批量缩放，以及 Upscale to 4K、Restore、SDR to HDR、HDR to SDR 都属于专业版功能：
+批量格式转换和批量缩放在基础版和专业版中都可以使用；基础版只使用 CPU，专业版可能使用 GPU。Upscale to 4K、Restore、SDR to HDR、HDR to SDR 属于专业版功能：
 
 - 批量：`Batch > Batch Format Trans` / `Batch > Batch Scale`
 - 图像加速：`Image Accelerate > Upscale to 4K` / `Restore` / `SDR to HDR` / `HDR to SDR`
 
-基础版中这些菜单项可见但置灰，并显示 `Upgrade to Pro...` 入口。
+基础版中图像加速菜单项可见但置灰，并显示 `Upgrade to Pro...` 入口；批量处理无需激活。
 
 ---
 
@@ -112,8 +112,8 @@ ImageViewer 使用同一个程序包，通过离线激活码在运行时切换�
 | 单图格式转换 | 支持（CPU） | 支持（CPU + GPU） |
 | 单图去噪 | 支持（CPU） | 支持（CPU + GPU） |
 | 单图缩放 | 支持（CPU） | 支持（CPU + GPU） |
-| 批量格式转换 | 不支持 | 支持 |
-| 批量缩放 | 不支持 | 支持 |
+| 批量格式转换 | 支持（CPU） | 支持（CPU + GPU 可选） |
+| 批量缩放 | 支持（CPU） | 支持（CPU） |
 | Upscale to 4K（Anime4K） | 不支持 | 支持 |
 | Restore（Anime4K） | 不支持 | 支持 |
 | SDR to HDR | 不支持 | 支持 |
@@ -122,7 +122,8 @@ ImageViewer 使用同一个程序包，通过离线激活码在运行时切换�
 
 说明：
 
-- 基础版并非只能查看；单图格式转换、去噪和缩放仍然可用，只是全部使用 CPU。
+- 基础版并非只能查看；单图格式转换、去噪、缩放以及批量格式转换和批量缩放仍然可用，只是全部使用 CPU。
+- 专业版的批量处理同样可用；批量缩放始终使用 CPU，批量格式转换在大尺寸图像上可能自动使用 GPU。
 - 专业版的 GPU 加速是自动选择的，不需要额外开关。显卡或驱动不可用时，部分功能可能仍然回退 CPU 或无法启动。
 - 基础版即使传入命令行 `--hw` 也不会报错退出，而是打印提示后使用 CPU。
 
@@ -174,8 +175,8 @@ ImageViewer 使用同一个程序包，通过离线激活码在运行时切换�
 |------|------|------|------|
 | 查看模式（Viewer Mode） | `Mode > Viewer Mode` | 打开并查看一张或多张图像 | 基础版/专业版 |
 | 对比模式（Compare Mode） | `Mode > Compare Mode` | 并排比较两个文件的字节内容和 PSNR | 基础版/专业版 |
-| 批量格式转换（Batch Format Trans） | `Batch > Batch Format Trans` | 转换目录中的图像格式 | 专业版 |
-| 批量缩放（Batch Scale） | `Batch > Batch Scale` | 按倍率批量缩放目录中的图像 | 专业版 |
+| 批量格式转换（Batch Format Trans） | `Batch > Batch Format Trans` | 转换目录中的图像格式 | 基础版（CPU）/ 专业版 |
+| 批量缩放（Batch Scale） | `Batch > Batch Scale` | 按倍率批量缩放目录中的图像 | 基础版（CPU）/ 专业版 |
 | Upscale to 4K | `Image Accelerate > Upscale to 4K` | 将单张图像放大到 4K 范围 | 专业版 |
 | Restore | `Image Accelerate > Restore` | 同尺寸增强单张图像 | 专业版 |
 | SDR to HDR | `Image Accelerate > SDR to HDR` | 将 SDR 图像转换为 HDR10 AVIF | 专业版 |
@@ -409,9 +410,9 @@ ImageViewer 使用同一个程序包，通过离线激活码在运行时切换�
 
 ---
 
-## 7. 批量处理（专业版）
+## 7. 批量处理
 
-批量处理必须先激活专业版。基础版中 `Batch` 菜单项置灰，并显示 `Upgrade to Pro...`。
+批量处理在基础版和专业版中都可以使用。基础版只使用 CPU；专业版的批量缩放同样使用 CPU，批量格式转换在大尺寸图像上可能自动使用 GPU。
 
 ### 7.1 批量格式转换（Batch Format Trans）
 
@@ -810,9 +811,9 @@ HDR 图片（Radiance `.hdr` 和 10/12 位 PQ/HLG 的 HEIF/AVIF）会自动转�
 
 ## 11. 常见问题
 
-### 11.1 为什么批量菜单是灰的？
+### 11.1 为什么图像加速菜单是灰的？
 
-批量格式转换、批量缩放和图像加速都是专业版功能。基础版中这些菜单项可见但不可用，旁边会显示 `Upgrade to Pro...`。打开 `Help > License / Activate Pro` 激活后即可使用，无需重启。
+图像加速（Upscale to 4K、Restore、SDR to HDR、HDR to SDR）是专业版功能。基础版中这些菜单项可见但不可用，旁边会显示 `Upgrade to Pro...`。批量格式转换和批量缩放无需激活，基础版即可使用，但只使用 CPU。打开 `Help > License / Activate Pro` 激活后即可解锁图像加速和 GPU 加速，无需重启。
 
 ### 11.2 激活成功但 GPU 功能仍不可用？
 
@@ -898,7 +899,7 @@ HDR 模式固定输出 10-bit HDR10（PQ10）AVIF，文件扩展名为 `.avif`�
 | Settings | Background（Dark/Light/Classic）、FontSize（10–21）、Language（English/中文） |
 | View | Perf Stats Window |
 | Mode | Viewer Mode、Compare Mode |
-| Batch | Batch Format Trans、Batch Scale；基础版额外显示 Upgrade to Pro... |
+| Batch | Batch Format Trans、Batch Scale（基础版仅 CPU） |
 | Image Accelerate | Upscale to 4K、Restore、SDR to HDR、HDR to SDR；基础版额外显示 Upgrade to Pro... |
 | Debug | Show FPS |
 | Help | About ImageViewer、License / Activate Pro |
