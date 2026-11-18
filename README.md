@@ -445,6 +445,6 @@ ImageViewer 目前为闭源项目，不提供源代码；MIT License 不要求�
 ## 反馈与联系
 
 - 版本下载与发布页：<https://gitee.com/open-release/image-viewer/releases> / <https://github.com/OpenMediaSource/ImageViewer/releases>
-- 问题反馈：请通过您获取本软件的渠道与我们联系。
+- 问题反馈：请通过starsgreen@sina.com与我们联系。
 
 **ImageViewer 完全离线运行，您的图像和数据始终只属于您自己。**
