@@ -117,7 +117,7 @@ ImageViewer（以下简称“本软件”）是一款在本机运行的图像查
 
 如果您对本隐私策略有任何疑问，可以通过以下方式联系：
 
-- 版本下载与发布页：<https://gitee.com/open-release/image-viewer/releases>
+- 版本下载与发布页：<https://gitee.com/open-release/image-viewer/releases> / <https://github.com/OpenMediaSource/ImageViewer/releases>
 - 也可以通过您获取本软件的渠道与我们联系。
 
 ---

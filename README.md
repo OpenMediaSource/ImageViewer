@@ -18,7 +18,7 @@ ImageViewer 是一款**完全离线、绿色免安装**的跨平台图像查看�
 | 图形界面 | Dear ImGui + OpenGL（GLAD + GLFW） |
 | 版本授权 | 基础版免费；专业版通过离线激活码解锁 |
 | 文档目录 | [doc/](doc/) |
-| 下载地址 | [Gitee Releases](https://gitee.com/open-release/image-viewer/releases) |
+| 下载地址 | [Gitee Releases](https://gitee.com/open-release/image-viewer/releases) / [GitHub Releases](https://github.com/OpenMediaSource/ImageViewer/releases) |
 
 ---
 
@@ -118,7 +118,7 @@ ImageViewer 是一款**完全离线、绿色免安装**的跨平台图像查看�
 
 ### 下载
 
-请前往 [Gitee Releases](https://gitee.com/open-release/image-viewer/releases) 下载对应平台的发行包。实际提供的平台与格式以发布页为准。
+请前往 [Gitee Releases](https://gitee.com/open-release/image-viewer/releases) 或 [GitHub Releases](https://github.com/OpenMediaSource/ImageViewer/releases) 下载对应平台的发行包。实际提供的平台与格式以发布页为准。
 
 ### 闭源说明
 
@@ -240,7 +240,7 @@ ImageViewer 由个人持续维护。如果它对你有帮助，欢迎通过微�
 - 基础版不需要 GPU。
 - 专业版的单图转换、去噪和缩放会在 GPU 可用时自动加速，失败时可回退 CPU。
 - Restore、SDR to HDR、HDR to SDR 仅支持 GPU，没有 CPU 回退。
-- 具体平台发行包与依赖以 [Releases](https://gitee.com/open-release/image-viewer/releases) 页面为准。
+- 具体平台发行包与依赖以 [Gitee Releases](https://gitee.com/open-release/image-viewer/releases) / [GitHub Releases](https://github.com/OpenMediaSource/ImageViewer/releases) 页面为准。
 
 ---
 
@@ -343,7 +343,7 @@ imgproc -i photo.jpg -o photo.webp
 | [基础版/专业版与离线授权](doc/edition-guide.md) | 版本功能对照、激活步骤、常见问题 |
 | [命令行工具使用说明](doc/imageviewutils-guide.md) | formattrans/scale/rotate/imgproc 参数、示例与 INI 配置 |
 | [隐私策略](doc/privacy-policy.md) | 离线运行、本地数据与个人信息说明 |
-| [版本发布](https://gitee.com/open-release/image-viewer/releases) | 下载发行包与查看版本信息 |
+| [版本发布](https://gitee.com/open-release/image-viewer/releases) / [GitHub Releases](https://github.com/OpenMediaSource/ImageViewer/releases) | 下载发行包与查看版本信息 |
 
 ---
 
@@ -436,7 +436,7 @@ ImageViewer 目前为闭源项目，不提供源代码；MIT License 不要求�
 
 ## 反馈与联系
 
-- 版本下载与发布页：<https://gitee.com/open-release/image-viewer/releases>
+- 版本下载与发布页：<https://gitee.com/open-release/image-viewer/releases> / <https://github.com/OpenMediaSource/ImageViewer/releases>
 - 问题反馈：请通过您获取本软件的渠道与我们联系。
 
 **ImageViewer 完全离线运行，您的图像和数据始终只属于您自己。**
