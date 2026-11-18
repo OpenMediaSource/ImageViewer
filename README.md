@@ -208,23 +208,29 @@ ImageViewer 使用同一个程序包，通过离线激活码在运行时切换�
 
 ## 赞助与购买
 
-### 购买专业版
+### 购买支持
 
 专业版通过离线激活码解锁，无需联网即可激活。基础版免费使用，可根据需要再购买专业版。
 
 | 项目 | 说明 / 链接 |
 |------|-------------|
-| 购买专业版 | [购买链接待补充](#) <!-- TODO: 替换为实际购买链接 --> |
+| 购买专业版 | [购买链接](https://czddrna0.jsjform.com/p/C8sYCv) |
 | 激活方式 | 参见[基础版/专业版与离线授权](doc/edition-guide.md#3-激活专业版) |
 | 激活码获取 | 如果使用机器码绑定的方式，购买后将 `Machine ID` 与购买信息提供给供应方,其他方式不用 |
 
+
+[![扫码购买](assets/jinshuju-pay.png)](https://czddrna0.jsjform.com/p/C8sYCv)
+
+也可直接访问：[购买页面](https://czddrna0.jsjform.com/p/C8sYCv)
+
 ### 赞助支持
 
-ImageViewer 由个人持续维护。如果它对你有帮助，欢迎通过微信或支付宝赞助支持项目发展。赞助完全自愿，不影响基础版的免费使用。
+ImageViewer 由个人持续维护。如果它对你有帮助，欢迎通过金数据收款码赞助支持项目发展。赞助完全自愿，不影响基础版的免费使用。
 
-| 微信 | 支付宝 |
-|:----:|:------:|
-| ![微信赞助码](assets/donate-wechat.png) | ![支付宝赞助码](assets/donate-alipay.png) |
+[![扫码赞助](assets/sponsorship.png)](https://czddrna0.jsjform.com/p/ljg6GD)
+
+也可直接访问：[赞助页面](https://czddrna0.jsjform.com/p/ljg6GD)
+
 ---
 
 ## 系统要求

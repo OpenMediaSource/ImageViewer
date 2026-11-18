@@ -150,13 +150,11 @@ ImageViewer 使用同一个程序包，通过离线激活码在运行时切换�
 
 ### 2.4 赞助支持
 
-如果 ImageViewer 对你有帮助，欢迎通过微信或支付宝赞助支持项目维护。赞助完全自愿，不影响基础版的免费使用。
+如果 ImageViewer 对你有帮助，欢迎通过金数据收款码赞助支持项目维护。赞助完全自愿，不影响基础版的免费使用。
 
-| 微信 | 支付宝 |
-|:----:|:------:|
-| ![微信赞助码](../assets/donate-wechat.png) | ![支付宝赞助码](../assets/donate-alipay.png) |
+[![金数据赞助码](../assets/sponsorship.png)](https://czddrna0.jsjform.com/p/ljg6GD)
 
-> 二维码为占位图片，请替换为实际收款码。<!-- TODO: 替换为实际的微信/支付宝收款二维码 -->
+也可直接访问：[金数据赞助页面](https://czddrna0.jsjform.com/p/ljg6GD)
 
 ---
 
